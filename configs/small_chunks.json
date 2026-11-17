@@ -1,0 +1,13 @@
+{
+  "name": "small-chunks-hybrid-reranked",
+  "chunking": {"size": 40, "overlap": 10},
+  "retrieval": {
+    "bm25_enabled": true,
+    "dense_enabled": true,
+    "fusion_enabled": true,
+    "reranker_enabled": true,
+    "candidate_limit": 20,
+    "rrf_k": 60,
+    "embedding_dimensions": 256
+  }
+}

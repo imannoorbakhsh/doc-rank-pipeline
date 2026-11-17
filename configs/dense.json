@@ -1,0 +1,13 @@
+{
+  "name": "dense-only-no-reranker",
+  "chunking": {"size": 120, "overlap": 20},
+  "retrieval": {
+    "bm25_enabled": false,
+    "dense_enabled": true,
+    "fusion_enabled": false,
+    "reranker_enabled": false,
+    "candidate_limit": 20,
+    "rrf_k": 60,
+    "embedding_dimensions": 256
+  }
+}
