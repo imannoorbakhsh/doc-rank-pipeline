@@ -1,0 +1,27 @@
+[
+  {
+    "document_id": "pathlib",
+    "title": "pathlib paths",
+    "text": "The pathlib module supplies object oriented filesystem paths. A Path can join child names with the slash operator. Path read_text reads a text file and write_text writes text using an encoding. Use Path exists to test whether a path is present."
+  },
+  {
+    "document_id": "json",
+    "title": "json serialization",
+    "text": "The json module serializes Python objects into JSON text. json dumps returns a JSON string while json dump writes JSON to a file like object. json loads parses a JSON string and json load reads JSON from a file like object."
+  },
+  {
+    "document_id": "itertools",
+    "title": "itertools iteration tools",
+    "text": "The itertools module provides iterator building blocks. itertools chain joins multiple iterables into one stream. itertools islice selects a slice from an iterator without first constructing a list. itertools product produces the cartesian product of input iterables."
+  },
+  {
+    "document_id": "collections",
+    "title": "collections containers",
+    "text": "The collections module includes specialized container datatypes. Counter counts hashable values. defaultdict calls a factory to supply a default value for a missing key. deque provides efficient appends and pops from either end."
+  },
+  {
+    "document_id": "argparse",
+    "title": "argparse command lines",
+    "text": "The argparse module creates command line interfaces. An ArgumentParser describes positional arguments and optional flags. Calling parse_args reads command line arguments and returns a namespace containing the parsed values."
+  }
+]
