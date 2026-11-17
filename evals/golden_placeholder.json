@@ -1,0 +1,36 @@
+{
+  "status": "PLACEHOLDER — REPLACE WITH HUMAN-REVIEWED GOLDEN QUESTIONS BEFORE MAKING QUALITY CLAIMS",
+  "version": 1,
+  "queries": [
+    {
+      "query_id": "placeholder-path-reading",
+      "text": "How do I read text from a filesystem path?",
+      "category": "filesystem",
+      "relevant_chunk_ids": ["pathlib:0"]
+    },
+    {
+      "query_id": "placeholder-json-parse",
+      "text": "Which function parses a JSON string?",
+      "category": "serialization",
+      "relevant_chunk_ids": ["json:0"]
+    },
+    {
+      "query_id": "placeholder-iterator-slice",
+      "text": "How can I slice an iterator without making a list?",
+      "category": "iteration",
+      "relevant_chunk_ids": ["itertools:0"]
+    },
+    {
+      "query_id": "placeholder-default-value",
+      "text": "Which container provides a default for missing keys?",
+      "category": "containers",
+      "relevant_chunk_ids": ["collections:0"]
+    },
+    {
+      "query_id": "placeholder-cli-arguments",
+      "text": "How do I parse command line flags?",
+      "category": "command-line",
+      "relevant_chunk_ids": ["argparse:0"]
+    }
+  ]
+}
